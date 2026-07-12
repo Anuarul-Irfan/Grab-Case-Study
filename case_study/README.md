@@ -19,7 +19,7 @@ token with `models:read` permission before the first run:
 
 ```bash
 cat > .env <<'EOF'
-GITHUB_TOKEN=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S
+GITHUB_TOKEN=Your Github Token
 EOF
 python consolidate.py
 ```
@@ -27,7 +27,7 @@ python consolidate.py
 On Windows, create a file named `.env` beside `consolidate.py` containing:
 
 ```env
-GITHUB_TOKEN=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S
+GITHUB_TOKEN=Your Github Token
 ```
 
 Then run:
