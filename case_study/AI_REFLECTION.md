@@ -34,14 +34,6 @@ untrusted input: Python verifies JSON structure, completeness, unique item IDs,
 status consistency, and category IDs against the current SQL results before a
 classification can be cached or written to output.
 
-At roughly 50,000 rows per week, I would keep the LLM reliable and affordable
-by sending only free-text descriptions, normalising and deduplicating them,
-reusing exact approved cache matches, and batching only unseen unique values.
-For example, 50,000 rows might reduce to a few thousand unique descriptions and
-only a few hundred cache misses. Compact numeric IDs reduce response tokens.
-Batch-level retry and taxonomy, prompt, and model versioning make failures and
-changes traceable.
-
 The largest long-term risk is not token cost but persistent error: a bad model
 decision can be reused indefinitely. Production improvements would therefore
 include a human-review queue, correction history, quality metrics by language,
