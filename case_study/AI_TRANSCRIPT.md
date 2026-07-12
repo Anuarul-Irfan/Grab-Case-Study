@@ -3,6 +3,9 @@
 This is a concise session summary. The original ChatGPT conversation can also
 be exported and included with the submission.
 
+## Detailed chat
+https://chatgpt.com/share/6a53b546-80c8-83ec-abfa-67b62eafd1ad
+
 ## Requirements review
 
 **User:** Before solutions, break down the objectives, requirements, do's, and
